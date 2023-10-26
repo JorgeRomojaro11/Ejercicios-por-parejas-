@@ -1,0 +1,63 @@
+#include<iostream>
+using namespace std;
+
+
+int main(){
+    int edad;
+    int a = 10;
+    int b = 5;
+
+
+    std:: cout << "Ingrese su edad: ";
+    std:: cin >> edad;
+    if(edad < 18)
+        std:: cout << "Eres menor de edad.";
+    else {
+        std::cout << "Eres mayor de edad.";
+    }
+
+
+
+
+    // OPERADORES ARITMETRICOS
+    int suma = a + b;
+    int resta = a - b;
+    int multiplicacion = a * b;
+    int division = a / b;
+    int modulo = a % b;
+
+    // OPERADORES DE COMPARCION
+    bool igual = (a == b);
+    bool diferente = (a != b);
+    bool mayorque = (a > b);
+    bool menorque = (a < b);
+    bool mayorigualque = (a >= b);
+    bool menorigualque = (a <= b);
+
+    // OPERADORES LOGICOS
+    bool andlogico = (a > 5 && b < 10);
+    bool orlogico = (a > 5 || b < 3);
+    bool notlogico = !(a == b);
+
+    std::cout << "Operadores aritmeticos: " << endl;
+    std::cout << "Suma: " << suma << endl;
+    std::cout << "Resta: " << resta << endl;
+    std:: cout << "Multiplicacion: " << multiplicacion << endl;
+    std:: cout << "Division: " << division << endl;
+    std::cout << "Modulo: " << modulo << endl;
+
+    std::cout << "Operadores de comparacion:" << endl;
+    std::cout << "Igual: " << igual << endl;
+    std::cout << "Diferente: " << diferente << endl;
+    std::cout << "Mayor que: " << mayorque << endl;
+    std:: cout << "Menor que: " << menorque << endl;
+    std::cout << "Mayor o igual que: " << mayorigualque << endl;
+    std::cout << "Menor o igual que: " << menorigualque << endl;
+
+    std::cout << "Operadores logicos:" << endl;
+    std::cout << "and logico: " << andlogico << endl;
+    std:: cout << "or logico: " << orlogico << endl;
+    std::cout << "not logico: " << notlogico << endl;
+
+
+}
