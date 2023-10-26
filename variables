@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int edad;
+std::string nombre;
+double altura;
+int a = 0;//Como "a" es una variable global la puedo modificar dentro de una fución, si "a" estuviese dentro del main no podría modificar su valor.
+
+
+int main()
+{
+    std::cout<<"Ingrese su edad: ";
+    std::cin >> edad;
+    if(edad<18) {
+        std::cout<< "Eres menor de edad"<< endl;
+    } else{
+        std::cout<< "Eres mayor de edad"<< endl;
+    }
+
+    std::cout <<"Ingrese su nombre: ";
+    std::cin >> nombre;
+
+    std::cout << "Ingrese su altura: ";
+    std::cin >> altura;
+
+
+    a = 5;
+    int i = 10; //VARIABLE LOCAL
+
+}
+
